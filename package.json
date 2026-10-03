@@ -1,0 +1,11 @@
+{
+  "name": "gmiu-college-chatbot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A share-ready rule-based GMIU College Chatbot website.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check public/app.js"
+  }
+}
