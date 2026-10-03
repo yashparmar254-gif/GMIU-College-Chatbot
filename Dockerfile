@@ -7,7 +7,7 @@ ENV PORT=3000
 COPY package.json ./
 RUN npm install --omit=dev --ignore-scripts
 COPY server.js ./
-COPY public ./public
+COPY . .
 COPY app.config.ts ./
 
 EXPOSE 3000
