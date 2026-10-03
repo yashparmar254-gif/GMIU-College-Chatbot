@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GMIU College Chatbot | Find your next question</title>
+  <meta name="description" content="A clear, rule-based guide to programs, admissions, campus life, facilities, and placements at Gyanmanjari Innovative University.">
+  <meta property="og:title" content="GMIU College Chatbot">
+  <meta property="og:description" content="Ask about GMIU programs, admissions, campus life, facilities, and placements.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="/gmiu-mark.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="GMIU College Chatbot home">
+        <span class="brand-mark" aria-hidden="true">G<span>+</span></span>
+        <span class="brand-copy"><strong>GMIU</strong><small>GYANMANJARI INNOVATIVE UNIVERSITY</small></span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#explore">Explore</a><a href="#chat">Ask the assistant</a>
+        <a class="nav-cta" href="https://gmiu.edu.in/gmiu/website/" target="_blank" rel="noopener">Official website <span>↗</span></a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero-section" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <div class="status-line"><span class="pulse-dot"></span> A campus guide, available anytime</div>
+          <p class="kicker">START WITH A QUESTION</p>
+          <h1 id="hero-title">Find your next<br><em>question.</em></h1>
+          <p class="hero-lede">A quick, friendly way to learn about GMIU — from programs and admissions to campus life, facilities, and placements.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#chat">Start chat <span>→</span></a><a class="text-link" href="#explore">See what it knows <span>↓</span></a></div>
+          <div class="trust-row"><span><b>01</b> Predefined answers</span><span><b>02</b> No AI or model</span><span><b>03</b> Official links</span></div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="orbit orbit-large"></div><div class="orbit orbit-small"></div>
+          <div class="paper-card"><div class="paper-top"><span class="mini-mark">G<span>+</span></span><span>GMIU / 2026–27</span></div><div class="paper-line long"></div><div class="paper-line"></div><div class="paper-line short"></div><div class="paper-stamp">ASK<br>AWAY</div></div>
+          <div class="floating-note note-one">65+<small>laboratories</small></div><div class="floating-note note-two">3000+<small>students</small></div>
+        </div>
+      </section>
+
+      <section class="chat-section" id="chat" aria-labelledby="chat-heading">
+        <div class="section-intro"><p class="kicker">YOUR CAMPUS GUIDE</p><h2 id="chat-heading">Ask about GMIU.</h2><p>Start with a suggested topic or type your own question. The assistant responds with clear, predefined information.</p></div>
+        <div class="chat-window">
+          <header class="chat-header"><div class="assistant-identity"><div class="assistant-avatar">G<span>+</span></div><div><strong>GMIU Assistant</strong><span><i></i> Online · Rule-based</span></div></div><button id="clearButton" class="clear-button" type="button" title="Clear chat">↻ <span>Clear</span></button></header>
+          <div class="topic-bar" aria-label="Suggested topics"><button class="topic-chip" data-message="What courses are available?">Programs</button><button class="topic-chip" data-message="Tell me about admissions.">Admissions</button><button class="topic-chip" data-message="What facilities are available?">Campus & facilities</button><button class="topic-chip" data-message="What is the library facility?">Library</button><button class="topic-chip" data-message="Tell me about scholarships.">Scholarships</button><button class="topic-chip" data-message="What are the placement statistics?">Placement stats</button><button class="topic-chip" data-message="Tell me about research and innovation.">Research</button><button class="topic-chip" data-message="Tell me about international study.">International</button></div>
+          <div class="messages" id="messages" aria-live="polite" aria-label="Chat messages"></div>
+          <form class="composer" id="chatForm"><label class="sr-only" for="messageInput">Ask a question about GMIU</label><input id="messageInput" maxlength="500" autocomplete="off" placeholder="Ask about GMIU..." required><button class="send-button" type="submit" aria-label="Send question">➤</button></form>
+          <p class="chat-note">Answers are predefined rules. Verify changing details on the <a href="https://gmiu.edu.in/gmiu/website/" target="_blank" rel="noopener">official GMIU website</a>.</p>
+        </div>
+      </section>
+
+      <section class="explore-section" id="explore" aria-labelledby="explore-heading">
+        <div class="explore-heading"><p class="kicker">WHAT YOU CAN EXPLORE</p><h2 id="explore-heading">From first question<br>to next step.</h2></div>
+        <div class="feature-list">
+          <article class="feature-card"><span class="feature-number">01</span><div><h3>Choose a direction</h3><p>Explore Engineering, Pharmacy, Science, Commerce, Management, Arts, Computer Applications, Design, and Law.</p></div><span class="feature-arrow">↗</span></article>
+          <article class="feature-card feature-card-accent"><span class="feature-number">02</span><div><h3>Understand the journey</h3><p>Ask about admissions, eligibility, fees, scholarships, hostel, transport, and the application portal.</p></div><span class="feature-arrow">↗</span></article>
+          <article class="feature-card"><span class="feature-number">03</span><div><h3>See the bigger picture</h3><p>Learn about PLM, 65+ laboratories, campus facilities, extracurricular life, placements, and contact details.</p></div><span class="feature-arrow">↗</span></article>
+        </div>
+      </section>
+
+      <section class="source-band"><div><span class="source-label">STAY IN THE KNOW</span><h2>Details change.<br>Verify with GMIU.</h2></div><div class="source-copy"><p>For current fees, eligibility, program availability, admission deadlines, and placement updates, use the official university channels.</p><div class="source-links"><a href="https://gmiu.edu.in/gmiu/website/" target="_blank" rel="noopener">gmiu.edu.in <span>↗</span></a><a href="https://admission.gmiu.edu.in/" target="_blank" rel="noopener">admission portal <span>↗</span></a></div></div></section>
+    </main>
+
+    <footer class="site-footer"><div class="footer-brand"><span class="brand-mark">G<span>+</span></span><div><strong>GMIU College Chatbot</strong><small>A rule-based student guide for Gyanmanjari Innovative University.</small></div></div><span class="footer-note">Built for clearer first questions.</span></footer>
+  </div>
+  <script src="/app.js" type="module"></script>
+</body>
+</html>
